@@ -1,0 +1,118 @@
+body{
+    width:100vw;
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    text-align:center;
+    justify-content: center;
+    
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+.containerx{
+    display:flex;
+    gap:10px;
+    margin-top: 30px;
+
+}
+.maindiv1{
+width:35vw;
+height:98vh;
+border: solid;
+background-color: #FBE8A6;
+}
+.maindiv2{
+width:35vw;
+height:98vh;
+border: solid;
+background-color:#F4976C
+;
+
+}
+ul{
+    text-align: start;
+}
+h4{
+    text-align: start;
+}
+.SUBDIV1{
+    justify-content: center;
+    align-items: center;
+    width: 32VW;
+    height: 9vh;
+    margin-left: 20px;
+    border:solid  #FBE8A6 ;
+    background-color: #FBE8A6;
+}
+.SUBDIV2{
+    justify-content: center;
+    align-items: center;
+    width: 32VW;
+    height: 9vh;
+    margin-left: 20px;
+    border:solid  #FBE8A6 ;
+    background-color: #FBE8A6;
+    margin-top: 10px;
+}
+.SUBDIV3{
+    justify-content: center;
+    align-items: center;
+    width: 32VW;
+    height: 9vh;
+    margin-left: 20px;
+    border:solid  #FBE8A6 ;
+    background-color: #FBE8A6;
+    margin-top: 10px;
+}
+.SUBDIV4{
+    justify-content: center;
+    align-items: center;
+    width: 32VW;
+    height: 9vh;
+    margin-left: 20px;
+    border:solid  #FBE8A6 ;
+    background-color: #FBE8A6;
+    margin-top: 10px;
+}
+.SUBDIV5{
+    justify-content: center;
+    align-items: center;
+    width: 32VW;
+    height: 9vh;
+    margin-left: 20px;
+    border:solid  #FBE8A6 ;
+    background-color: #FBE8A6;
+    margin-top: 10px;
+}
+.SUBDIV6{
+    justify-content: center;
+    align-items: center;
+    width: 32VW;
+    height: 9vh;
+    margin-left: 20px;
+    border:solid  #FBE8A6 ;
+    background-color: #FBE8A6;
+    margin-top: 10px;
+}
+.SUBDIV7{
+    justify-content: center;
+    align-items: center;
+    width: 32VW;
+    height: 9vh;
+    margin-left: 20px;
+    border:solid  #FBE8A6 ;
+    background-color: #FBE8A6;
+    margin-top: 10px;
+}
+.SUBDIV8{
+    justify-content: center;
+    align-items: center;
+    width: 32VW;
+    height: 9vh;
+    margin-left: 20px;
+    border:solid  #FBE8A6 ;
+    background-color: #FBE8A6;
+    margin-top: 10px;
+}

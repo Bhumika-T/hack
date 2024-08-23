@@ -1,0 +1,160 @@
+body{
+    width:100vw;
+    height:100vh;
+    margin:0px;
+    font-family: 'Roboto', sans-serif;
+    background-color:#303C6C;
+}
+.circlee{
+width:200px;
+height:200px;
+border-radius: 50%;  
+background-color:#B4DFE5;
+margin-top: 30px;
+margin-left: 45vw;
+display: flex;
+}
+#med{
+font-size: 30px;
+margin-top: 80px;
+margin-left: 25px;
+
+}
+
+.subcontainer{
+    display: flex;
+    margin-left: 23vw;
+    margin-top: 80px;
+    gap:80px;
+}
+.Box1{
+    width:250px;
+    height:60px;
+    border: solid #B4DFE5 ;
+    background-color:#B4DFE5;
+    border-radius: 30px;
+}
+.Box2{
+    width:250px;
+    height:60px;
+    border: solid #B4DFE5 ;
+    background-color:#B4DFE5;
+    border-radius: 30px;
+}
+.Box3{
+    width:250px;
+    height:60px;
+    border: solid #B4DFE5 ;
+    background-color:#B4DFE5;
+    border-radius: 30px;
+}
+.subcontainer2{
+    display: flex;
+    margin-left: 23vw;
+    margin-top: 50px;
+    gap:80px;
+}
+
+.Box4{
+    width:250px;
+    height:60px;
+    border: solid #B4DFE5 ;
+    background-color:#B4DFE5;
+    border-radius: 30px;
+}
+.Box5{
+    width:250px;
+    height:60px;
+    border: solid #B4DFE5 ;
+    background-color:#B4DFE5;
+    border-radius: 30px;
+}
+.Box6{
+    width:250px;
+    height:60px;
+    border: solid #B4DFE5 ;
+    background-color:#B4DFE5;
+    border-radius: 30px;
+}
+.subcontainer3{
+    display: flex;
+    margin-left: 23vw;
+    margin-top: 50px;
+    gap:80px;
+}
+
+.Box7{
+    width:250px;
+    height:60px;
+    border: solid #B4DFE5 ;
+    background-color:#B4DFE5;
+    border-radius: 30px;
+}
+.Box8{
+    width:250px;
+    height:60px;
+    border: solid #B4DFE5 ;
+    background-color:#B4DFE5;
+    border-radius: 30px;
+}
+.Box9{
+    width:250px;
+    height:60px;
+    border: solid #B4DFE5 ;
+    background-color:#B4DFE5;
+    border-radius: 30px;
+}
+.bag1{
+    margin-left: 30px;
+    font-size: 23px;
+    margin-bottom: 20px;
+   }
+   .bag2{
+    margin-left: 70px;
+    font-size: 23px;
+    margin-bottom: 20px;
+   }
+   .bag3{
+    margin-left: 80px;
+    font-size: 23px;
+    margin-bottom: 20px;
+   }
+   .bag4{
+    margin-left: 80px;
+    font-size: 23px;
+    margin-bottom: 20px;
+   }
+   .bag5{
+    margin-left: 90px;
+    font-size: 23px;
+   
+    
+   }
+   .bag6{
+    margin-left: 85px;
+    font-size: 23px;
+    margin-bottom: 20px;
+   }
+   .bag7{
+    margin-left: 80px;
+    font-size: 23px;
+    margin-bottom: 20px;
+   }
+   .bag8{
+    margin-left: 70px;
+    font-size: 23px;
+    margin-bottom: 20px;
+   }
+   .bag9{
+    margin-left: 50px;
+    font-size: 23px;
+   
+   }
+   a{
+    text-decoration: none;
+    color: black;
+   }
+   a:hover{
+    text-decoration: underline;
+    color:blue;
+   }

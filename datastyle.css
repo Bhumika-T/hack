@@ -1,0 +1,64 @@
+body{
+    width:100vw;
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+    font-family: 'Roboto', sans-serif;
+
+}
+.top{
+    width:58vw;
+    height:15vh;
+    border: solid rgb(251, 247, 247);
+    text-align: center;
+    background-color:  #303C6C;
+    color:#B4DFE5 ;
+}
+.maincan{
+    display: flex;
+   
+    gap:30px;
+    margin-top: 20px;
+}
+
+
+.can_01{
+    width:18vw;
+    height: 40vh;
+    border: solid;
+}
+.can_02{
+    width:18vw;
+    height: 40vh;
+    border: solid;
+    margin-top: 10px;
+}
+.can03{
+    width:18vw;
+    height: 40vh;
+    border: solid;
+}
+.can04{
+    width:18vw;
+    height: 40vh;
+    border: solid;
+    margin-top: 10px;
+}
+.can05{
+    width:18vw;
+    height: 40vh;
+    border: solid;
+}
+.can06{
+    width:18vw;
+    height: 40vh;
+    border: solid;
+    margin-top: 10px;
+}
+.button1{
+    margin-left: 20px;
+}
