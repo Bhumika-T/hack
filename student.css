@@ -1,0 +1,399 @@
+.career-quest-rectangle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15vw; /* Width of the rectangle */
+    height: 100vh; /* Full height of the viewport */
+    background-color: #303c6c; /* Background color of the rectangle */
+    color: aliceblue; /* Text color */
+    padding: 20px; /* Padding inside the rectangle */
+    box-sizing: border-box;
+}
+
+.career-quest-title {
+    margin: 0;
+    font-size: 2em; /* Font size for the heading */
+    color: aliceblue;
+}
+
+.divider {
+    margin: 20px 0;
+    border: 0;
+    border-top: 2px solid aliceblue; /* Thin horizontal line */
+}
+
+.menu-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+.menu-list li {
+    margin-bottom: 40px; /* Space between links */
+}
+
+.menu-list a {
+    text-decoration: none;
+    color: aliceblue; /* Link color */
+    font-size: 1.5em; /* Font size for links */
+    transition: #303C6C 0.5s ease-in-out; /* Smooth transition on hover */
+}
+
+.menu-list a:hover {
+    color: #ffcc00; /* Lighter color on hover */
+}
+
+
+/* Overall page styling */
+html {
+    font-family: Arial, sans-serif;
+    background-color: #B4DFE5;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar styling
+.nav-bar {
+    max-width: 210vh;
+    margin-left: 30vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3e506b;
+    padding: 10px;
+}
+
+/* Navigation links styling */
+/* .nav-bar a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 15px 20px;
+    margin: 0 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+} */
+
+/* Hover effect for navigation links */
+/* .nav-bar a:hover {
+    background-color: #5a6d85;
+    color: #fff;
+    border-radius: 5px;
+}  */
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #B4DFE5;
+    color: aliceblue;
+}
+
+.container {
+    padding: 20px;
+    max-width: 700px; /* Decrease the width of the container */
+    margin: 0 auto;   /* Center the container */
+    margin-left: 30vh;
+}
+
+.title {
+    /* text-align: center; */
+    margin-bottom: 30px;
+    margin-left: 10vh;
+    color: black;
+    font-size: 20px;
+    margin-top : -4vh;
+}
+
+.courses {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.course {
+    background-color: #3e506b;
+    padding: 20px;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+.course h3 {
+    margin: 0 0 10px;
+}
+
+.course p {
+    margin: 0 0 20px;
+}
+
+.progress-circle {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+}
+
+.progress-circle circle {
+    fill: none;
+    stroke-width: 10;
+}
+
+.progress-circle .bg {
+    stroke: #5a6d85;
+}
+
+.progress-circle .progress {
+    stroke: #fff;
+    stroke-linecap: round;
+}
+
+.progress-circle text {
+    font-size: 20px;
+    fill: aliceblue;
+}
+
+
+
+
+
+
+
+/* General styling for the wrapper to handle margins and centering */
+.todo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background-color: #B4DFE5;
+    color: black;
+}
+
+.todo-container {
+    width: 45vh;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-left: 155vh;
+    margin-top: -6vh;
+    color: black;
+}
+
+.todo-title {
+    text-align: center;
+    /* margin-bottom: 20px; */
+    color: black;
+    margin-top: 10px;
+}
+
+.todo-input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: black;
+}
+
+#task-input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: black;
+}
+
+#add-task-btn {
+    padding: 10px 20px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    color: black;
+    cursor: pointer;
+}
+
+#add-task-btn:hover {
+    background-color: #218838;
+}
+
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+    color: black;
+}
+
+.todo-list-item {
+    background-color: #B4DFE5;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+}
+
+.todo-list-item.completed {
+    text-decoration: line-through;
+    /* color: #888; */
+    color: black;
+}
+
+.todo-list-item button {
+    background-color: #dc3545;
+    border: none;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.todo-list-item button:hover {
+    background-color: #c82333;
+}
+
+.todo-list-item input[type="checkbox"] {
+    margin-right: 10px;
+    color: black;
+}
+
+
+
+
+/* Container styling */
+.announcement-container {
+    max-width: 330px;
+    
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-left: 157vh;
+    margin-top: -80vh;
+}
+
+.announcement-heading {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+/* Styling for each announcement item */
+.announcement-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+
+.announcement-item:last-child {
+    border-bottom: none;
+}
+
+.announcement-item:hover {
+    background-color: #f0f0f0;
+}
+
+.announcement-category {
+    font-weight: bold;
+    color: #333;
+}
+
+.announcement-content {
+    margin-left: 5px;
+    color: black;
+}
+
+.announcement-time {
+    display: block;
+    font-size: 0.9em;
+    color: #888;
+    margin-top: 5px;
+}
+
+
+
+/* Container styling */
+.graph-container {
+    max-width: 500px;
+    height: 300px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    margin-left: 33vh;
+    margin-top: -4vh;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+canvas {
+    width: 20%;
+    height: 200px; /* Adjust as needed */
+}
+
+
+
+/* Container styling */
+.mentors-container {
+    max-width: 300px;
+    height: 300px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: -51vh;
+    margin-left: 109vh;
+}
+
+.mentors-heading {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+/* Styling for each mentor item */
+.mentor-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.mentor-item:last-child {
+    border-bottom: none;
+}
+
+.mentor-image {
+    width: 60px; /* Adjust size as needed */
+    height: 60px; /* Adjust size as needed */
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.mentor-info {
+    flex: 1;
+}
+
+.mentor-name {
+    margin: 0;
+    font-weight: bold;
+    color: #333;
+}
+
+.mentor-designation {
+    margin: 0;
+    color: #888;
+}

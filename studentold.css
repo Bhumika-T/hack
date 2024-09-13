@@ -1,0 +1,323 @@
+.career-quest-rectangle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15vw; /* Width of the rectangle */
+    height: 100vh; /* Full height of the viewport */
+    background-color: #303c6c; /* Background color of the rectangle */
+    color: aliceblue; /* Text color */
+    padding: 20px; /* Padding inside the rectangle */
+    box-sizing: border-box;
+}
+
+.career-quest-title {
+    margin: 0;
+    font-size: 2em; /* Font size for the heading */
+    color: aliceblue;
+}
+
+.divider {
+    margin: 20px 0;
+    border: 0;
+    border-top: 2px solid aliceblue; /* Thin horizontal line */
+}
+
+.menu-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+.menu-list li {
+    margin-bottom: 40px; /* Space between links */
+}
+
+.menu-list a {
+    text-decoration: none;
+    color: aliceblue; /* Link color */
+    font-size: 1.5em; /* Font size for links */
+    transition: #303C6C 0.5s ease-in-out; /* Smooth transition on hover */
+}
+
+.menu-list a:hover {
+    color: #ffcc00; /* Lighter color on hover */
+}
+
+.lrect{
+    background-color: #303C6C;
+    height: 80vh;
+    width: 15vw;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-top: 20px;
+    margin-left: 15vw;
+}
+.profile{
+    height: 150px;
+    width: 150px;
+    margin-left: 35px;
+    border-radius: 50%;
+    /* background-color: antiquewhite; */
+}
+.ptext{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 24px;
+    margin-left: 65px;
+    margin-top: 0px;
+}
+.ntext{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 20px;
+   margin-top: 35px;
+    text-align: center;
+}
+.ltext{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: -15px;
+    margin-left: 100px;
+}
+.medals{
+    color: aliceblue;
+    margin-left: 10vh;
+    font-family: sans-serif;
+    font-size: 24px;
+    margin-top: 0px;
+}
+.gold-medal{
+    height: 80px;
+    width: 80px;
+    margin-left: 50px;
+    margin-top: 0px;
+    padding: 0%;
+}
+.gold-medal1{
+    height: 80px;
+    width: 80px;
+    margin-left: -20px;
+    margin-top: 0px;
+}
+.gold-medal2{
+    height: 80px;
+    width: 80px;
+    margin-left: -20px;
+    margin-top: 0px;
+}
+.top-rect{
+    height: 33vh;
+    width: 35vw;
+    background-color: #FBE8A6;
+    margin-left: 45vh;
+    border-radius: 10%;
+    margin-top: -82vh;
+    padding: 0.2px;
+    margin-left: 31vw;
+}
+.top-text{
+    color: black;
+    font-size: 28px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.top2-text{
+    color: black;
+    font-size: 28px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.mid-rect{
+    display: flex;
+    position: relative;
+    gap: 20px;
+    height: 55vh;
+    width: 20vw;
+    background-color: #B4DFE5;
+    margin-left: 53vh;
+    border-radius: 10%;
+    margin-top: 10px;
+    overflow: hidden;
+    margin-left: 31vw;
+    
+}
+.pp1{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+   
+}
+.pp2{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+
+}
+.pp3{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+ 
+}
+.peeps-text{
+    color: black;
+    font-family: sans-serif;
+    font-size: 28px;
+    text-align: center;
+}
+.simple-button{
+    background-color: #303C6C;
+    border-radius: 5px;
+    margin-left: 80vw;
+    color: aliceblue;
+    margin-left: -25vh;
+    margin-top: 35vh;
+}
+.simple-button1{
+    background-color: #303C6C;
+    border-radius: 5px;
+    color: aliceblue;
+    margin-left: 10vh;
+    margin-top: 22vh;
+}
+.simple-button2{
+    background-color: #303C6C;
+    border-radius: 5px;
+    color: aliceblue;
+    margin-left: 10vh;
+    margin-top: -5vh;
+}
+.upload{
+    height: 55vh;
+    width: 30vh;
+    background-color: #B4DFE5;
+    margin-left: 114vh;
+    border-radius: 10%;
+    margin-top: -55vh;
+    padding-top: 1px;
+    /* overflow: hidden; */
+}
+.upload-text{
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    font-size: 23px;
+}
+.upload-button{
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+    padding: 10px 18px;
+    background-color: #303C6C;
+    color: aliceblue;
+    font-family: sans-serif;
+    border-radius: 50px;
+    margin-left: 5vh;
+    margin-top: -20vh;
+}
+.right-rect{
+    padding: 2px;
+    background-color: #303C6C;
+    height: 85vh;
+    width: 60vh;
+    margin-left: 147vh;
+    border-radius: 10px;
+    margin-top: -90vh;
+   
+}
+.rtext{
+    color: aliceblue;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 26px;
+}
+.rect1{
+    /* padding: 5px; */
+    background-color: #B4DFE5;
+    height: 12vh;
+    width: 55vh;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+.kid{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: -38vh;
+    margin-top: -6rem;
+    /* position: fixed; */
+}
+.btext{
+    color: black;
+    font-family: sans-serif;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-left: 20vh;
+}
+.b1text{
+    color: black;
+    font-family: sans-serif;
+    font-size: 22px;
+    margin-top: -20px;
+    margin-left: 20vh;
+}
+.session{
+    color: black;
+    font-family: sans-serif;
+    font-size: 22px;
+    margin-top: -15px;
+    margin-left: 20vh;
+
+}
+.join-button{
+    position: relative;
+    background-color: #303C6C;
+    border-radius: 5px;
+    color: aliceblue;
+    margin-left: 30vh;
+    margin-top: -30rem;
+}
+.rect2{
+    background-color: #B4DFE5;
+    height: 12vh;
+    width: 55vh;
+    margin-left: 2px;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    margin-top: 40px;
+}
+.man{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: -38vh;
+    margin-top: -14vh;
+    /* position: fixed; */
+}
+.join-button1{
+    position: relative;
+    background-color: #303C6C;
+    border-radius: 5px;
+    color: aliceblue;
+    margin-left: 30vh;
+    margin-top: -30rem;
+}
+.rect3{
+    background-color: #B4DFE5;
+    height: 12vh;
+    width: 55vh;
+    margin-left: 2px;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+.rank{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+
+

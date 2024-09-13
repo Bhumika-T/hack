@@ -163,4 +163,74 @@ body{
     background-color: #303C6C ;
     color: #fff;
     margin-top: 0%;
+}/* For tablets and small laptops (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .extra {
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    .circle {
+        width: 150px;
+        height: 150px;
+    }
+    .bioinfo {
+        width: 350px;
+    }
+    .term {
+        width: 350px;
+    }
+    .sub {
+        margin-left: 150px;
+    }
+}
+
+/* For mobile devices (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .extra {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .circle {
+        width: 120px;
+        height: 120px;
+    }
+    .name, .add, .user, .pass, .con {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .bioinfo, .term {
+        width: 300px;
+    }
+    .sub {
+        margin-left: 100px;
+    }
+}
+
+/* For small mobile devices (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+    .circle {
+        width: 100px;
+        height: 100px;
+    }
+    .name, .add, .user, .pass, .con {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .bioinfo, .term {
+        width: 250px;
+    }
+    .sub {
+        margin-left: 80px;
+    }
 }

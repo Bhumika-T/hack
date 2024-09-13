@@ -1,64 +1,112 @@
-body{
-    width:100vw;
-    height: 100vh;
-    margin: 0%;
-    padding: 0%;
-    display: flex;
-    text-align: center;
-    justify-content: center;
+
+    body {
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-family: 'Roboto', sans-serif;
+        background-color: #f4f4f4;
+    }
     
-    font-family: 'Roboto', sans-serif;
-
-}
-.top{
-    width:58vw;
-    height:15vh;
-    border: solid rgb(251, 247, 247);
-    text-align: center;
-    background-color:  #303C6C;
-    color:#B4DFE5 ;
-}
-.maincan{
-    display: flex;
-   
-    gap:30px;
-    margin-top: 20px;
-}
-
-
-.can_01{
-    width:18vw;
-    height: 40vh;
-    border: solid;
-}
-.can_02{
-    width:18vw;
-    height: 40vh;
-    border: solid;
-    margin-top: 10px;
-}
-.can03{
-    width:18vw;
-    height: 40vh;
-    border: solid;
-}
-.can04{
-    width:18vw;
-    height: 40vh;
-    border: solid;
-    margin-top: 10px;
-}
-.can05{
-    width:18vw;
-    height: 40vh;
-    border: solid;
-}
-.can06{
-    width:18vw;
-    height: 40vh;
-    border: solid;
-    margin-top: 10px;
-}
-.button1{
-    margin-left: 20px;
-}
+    .top {
+        width: 58vw;
+        height: 15vh;
+        border: solid rgb(251, 247, 247);
+        text-align: center;
+        background-color: #303C6C;
+        color: #B4DFE5;
+        padding: 20px;
+    }
+    
+    .maincan {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-top: 20px;
+    }
+    
+    .can_01, .can_02, .can03, .can04, .can05, .can06 {
+        width: 18vw;
+        height: 40vh;
+        border: solid;
+        background-color: #fff;
+        padding: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .can_02, .can04, .can06 {
+        margin-top: 10px;
+    }
+    
+    .button1 {
+        margin-left: 20px;
+        padding: 10px 20px;
+        background-color: #303C6C;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        font-size: 1em;
+    }
+    
+    .button1:hover {
+        background-color: #505C8A;
+    }
+    
+    /* Media Queries */
+    
+    /* For Tablets */
+    @media (max-width: 768px) {
+        .top {
+            width: 80vw;
+            height: auto;
+        }
+    
+        .maincan {
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+    
+        .can_01, .can_02, .can03, .can04, .can05, .can06 {
+            width: 80vw;
+            height: auto;
+        }
+    }
+    
+    /* For Mobile Devices */
+    @media (max-width: 576px) {
+        body {
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+    
+        .top {
+            width: 90vw;
+            height: auto;
+            padding: 10px;
+        }
+    
+        .maincan {
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+    
+        .can_01, .can_02, .can03, .can04, .can05, .can06 {
+            width: 90vw;
+            height: auto;
+            padding: 10px;
+        }
+    
+        .button1 {
+            margin-left: 0;
+            margin-top: 10px;
+            width: 100%;
+            padding: 12px;
+            font-size: 1.2em;
+        }
+    }
+    

@@ -1,0 +1,320 @@
+.career-quest-rectangle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15vw;
+    height: 100vh;
+    background-color: #303c6c;
+    color: aliceblue;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.career-quest-title {
+    margin: 0;
+    font-size: 2em;
+    color: aliceblue;
+}
+
+.divider {
+    margin: 20px 0;
+    border: 0;
+    border-top: 2px solid aliceblue;
+}
+
+.menu-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-list li {
+    margin-bottom: 40px;
+}
+
+.menu-list a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.5em;
+    transition: color 0.5s ease-in-out;
+}
+
+.menu-list a:hover {
+    color: #ffcc00;
+}
+
+.lrect {
+    position: absolute;
+    top: 20px;
+    left: 15vw;
+    background-color: #303c6c;
+    height: 80vh;
+    width: 15vw;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+
+.profile {
+    height: 150px;
+    width: 150px;
+    margin-left: 35px;
+    border-radius: 50%;
+}
+
+.ptext {
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+
+.ntext {
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 35px 0 0 0;
+}
+
+.ltext {
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -15px;
+}
+
+.medals {
+    color: aliceblue;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.gold-medal, .gold-medal1, .gold-medal2 {
+    height: 80px;
+    width: 80px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.top-rect {
+    position: absolute;
+    top: 10vh;
+    left: 31vw;
+    height: 33vh;
+    width: 35vw;
+    background-color: #fbe8a6;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+.top-text {
+    color: black;
+    font-size: 28px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+.top2-text {
+    color: black;
+    font-size: 28px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.mid-rect {
+    position: absolute;
+    top: 45vh;
+    left: 31vw;
+    display: flex;
+    gap: 20px;
+    height: 55vh;
+    width: 20vw;
+    background-color: #b4dfe5;
+    border-radius: 10%;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.pp1, .pp2, .pp3 {
+    border-radius: 50%;
+}
+
+.pp1 {
+    height: 150px;
+    width: 150px;
+}
+
+.pp2 {
+    height: 130px;
+    width: 130px;
+}
+
+.pp3 {
+    height: 130px;
+    width: 130px;
+}
+
+.peeps-text {
+    color: black;
+    font-family: sans-serif;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.simple-button, .simple-button1, .simple-button2 {
+    background-color: #303c6c;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: relative;
+}
+
+.simple-button:hover, .simple-button1:hover, .simple-button2:hover {
+    background-color: #ffcc00;
+}
+
+.simple-button {
+    margin-left: -25vh;
+    margin-top: 35vh;
+}
+
+.simple-button1 {
+    margin-left: 10vh;
+    margin-top: 22vh;
+}
+
+.simple-button2 {
+    margin-left: 10vh;
+    margin-top: -5vh;
+}
+
+.upload {
+    position: absolute;
+    top: 10vh;
+    left: 60vw;
+    height: 55vh;
+    width: 30vh;
+    background-color: #b4dfe5;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+.upload-text {
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+.upload-button {
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #303c6c;
+    color: aliceblue;
+    font-family: sans-serif;
+    border-radius: 50px;
+    margin-left: 5vh;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.upload-button:hover {
+    background-color: #ffcc00;
+}
+
+.right-rect {
+    position: absolute;
+    top: 10vh;
+    left: 80vw;
+    background-color: #303c6c;
+    height: 85vh;
+    width: 60vh;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.rtext {
+    color: aliceblue;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.rect1, .rect2, .rect3 {
+    background-color: #b4dfe5;
+    height: 12vh;
+    width: 55vh;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    padding: 10px;
+}
+
+.kid, .man {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.btext {
+    color: black;
+    font-family: sans-serif;
+    font-size: 24px;
+    margin-left: 20vh;
+}
+
+.b1text {
+    color: black;
+    font-family: sans-serif;
+    font-size: 22px;
+    margin-left: 20vh;
+    margin-top: -10px;
+}
+
+.session {
+    color: black;
+    font-family: sans-serif;
+    font-size: 22px;
+    margin-left: 20vh;
+    margin-top: -10px;
+}
+
+.join-button, .join-button1 {
+    background-color: #303c6c;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+
+.join-button:hover, .join-button1:hover {
+    background-color: #ffcc00;
+}
+
+.rank {
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}

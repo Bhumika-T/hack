@@ -158,3 +158,95 @@ margin-left: 25px;
     text-decoration: underline;
     color:blue;
    }
+   /* For tablets and small laptops (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+    .circlee {
+        width: 150px;
+        height: 150px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #med {
+        font-size: 25px;
+        margin-top: 60px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .subcontainer, .subcontainer2, .subcontainer3 {
+        margin-left: 10vw;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .Box1, .Box2, .Box3, .Box4, .Box5, .Box6, .Box7, .Box8, .Box9 {
+        width: 200px;
+        height: 50px;
+    }
+    .bag1, .bag2, .bag3, .bag4, .bag5, .bag6, .bag7, .bag8, .bag9 {
+        font-size: 18px;
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+/* For mobile devices (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    .circlee {
+        width: 120px;
+        height: 120px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #med {
+        font-size: 20px;
+        margin-top: 50px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .subcontainer, .subcontainer2, .subcontainer3 {
+        margin-left: 5vw;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .Box1, .Box2, .Box3, .Box4, .Box5, .Box6, .Box7, .Box8, .Box9 {
+        width: 180px;
+        height: 40px;
+    }
+    .bag1, .bag2, .bag3, .bag4, .bag5, .bag6, .bag7, .bag8, .bag9 {
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+/* For small mobile devices (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+    .circlee {
+        width: 100px;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #med {
+        font-size: 18px;
+        margin-top: 40px;
+        text-align: center;
+    }
+    .subcontainer, .subcontainer2, .subcontainer3 {
+        margin-left: 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+    .Box1, .Box2, .Box3, .Box4, .Box5, .Box6, .Box7, .Box8, .Box9 {
+        width: 150px;
+        height: 35px;
+    }
+    .bag1, .bag2, .bag3, .bag4, .bag5, .bag6, .bag7, .bag8, .bag9 {
+        font-size: 14px;
+        text-align: center;
+    }
+}

@@ -66,3 +66,72 @@ body{
 .tech{
     color: #B4DFE5;
 }
+/* For devices with width 1024px or less (Tablets, small laptops) */
+@media screen and (max-width: 1024px) {
+    .container4 {
+        padding: 20px;
+        flex-direction: column;
+        width: 80vw;
+    }
+    .AI, .program, .robo, .game {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+/* For devices with width 768px or less (Tablets, iPads) */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    .container4 {
+        padding: 10px;
+        width: 90vw;
+    }
+    h1.tech {
+        font-size: 24px;
+    }
+    .AI, .program, .robo, .game {
+        padding: 10px;
+        font-size: 16px;
+    }
+    a.AI_link {
+        text-align: center;
+        display: block;
+    }
+}
+
+/* For mobile devices with width 480px or less (small phones) */
+@media screen and (max-width: 480px) {
+    body {
+        padding: 5px;
+    }
+    .container4 {
+        width: 100%;
+        padding: 5px;
+    }
+    h1.tech {
+        font-size: 20px;
+    }
+    .AI, .program, .robo, .game {
+        font-size: 14px;
+        padding: 8px;
+    }
+    a.AI_link {
+        font-size: 14px;
+    }
+}
+
+/* For mobile devices with width 320px or less (very small phones) */
+@media screen and (max-width: 320px) {
+    h1.tech {
+        font-size: 18px;
+    }
+    .AI, .program, .robo, .game {
+        font-size: 12px;
+        padding: 5px;
+    }
+    a.AI_link {
+        font-size: 12px;
+    }
+}

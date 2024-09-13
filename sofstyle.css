@@ -1,20 +1,21 @@
-body{
+/*body{
     width:100vw;
     height: 100vh;
     margin: 0%;
     padding: 0%;
-    display: flex;
-    text-align:center;
-    justify-content: center;
+   
     
     font-family: 'Roboto', sans-serif;
     
 
 }
 .containerx{
-    display:flex;
+   
     gap:10px;
     margin-top: 30px;
+    display:flex;
+    text-align:center;
+    justify-content: center;
 
 }
 .maindiv1{
@@ -116,3 +117,320 @@ h4{
     background-color: #FBE8A6;
     margin-top: 10px;
 }
+.salary{
+   
+    display:flex;
+    text-align:center;
+    justify-content: center;
+    gap:2%
+
+}
+.salaryexp{
+    width:25vw;
+    height:75vh;
+    border: solid;
+    margin-top: 7vh;
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    justify-content: center;
+    justify-items: center;
+    background-color: #303C6C ;
+    gap:1.5%;
+
+}
+.careergrowth{
+    width:60vw;
+    height:75vh;
+    margin-top:7vh ;
+    border: solid;
+    background-color:#F4976C;
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    justify-content: center;
+    gap:1.5%;
+}
+.salary1{
+    width:80%;
+    height:15%;
+    border:solid;
+   margin-left: 10%;
+   background-color:#B4DFE5;
+}
+.salary2{
+    width:80%;
+    height:15%;
+    border:solid;
+   margin-left: 10%;
+   background-color:#B4DFE5;
+}
+.salary3{
+    width:80%;
+    height:15%;
+    border:solid;
+   margin-left: 10%;
+   background-color:#B4DFE5;
+}
+.salary4{
+    width:80%;
+    height:15%;
+    border:solid;
+   margin-left: 10%;
+   background-color:#B4DFE5;
+}
+.salary5{
+    width:80%;
+    height:15%;
+    border:solid;
+   margin-left: 10%;
+   background-color:#B4DFE5;
+   margin-bottom: 5px;
+}
+.salexp{
+    color: white;
+}
+.careerg{
+    color: white;
+}
+.cg1{
+    width: 90%;
+    height:23%;
+    border:solid;
+    margin-left: 5%;
+    background-color: #FBE8A6;
+}
+.cg2{
+    width: 90%;
+    height:23%;
+    border:solid;
+    margin-left: 5%;
+    background-color: #FBE8A6;
+}
+.cg3{
+    width: 90%;
+    height:23%;
+    border:solid;
+    margin-left: 5%;
+    background-color: #FBE8A6;
+}
+.cg4{
+    width: 90%;
+    height:23%;
+    border:solid;
+    margin-left: 5%;
+    background-color: #FBE8A6;
+    margin-bottom: 5px;
+}
+.edqualify{
+    width:70%;
+    height:20%;
+    border:solid;
+    background-color:#F4976C;
+    margin-top: 2%;
+  margin-left: 15%;
+  display: flex;
+  flex-direction: column;
+  text-align:center;
+  justify-content: center;
+
+}
+.mainsal{
+    width:100vw;
+    height:100vh;
+}
+.edqua{
+    width:90%;
+    height:60%;
+    border:solid;
+    margin-left: 5%;
+    background-color: #FBE8A6;
+    margin-bottom: 10px;
+}
+    */
+    /* Base Styling for PC (Default) */
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.containerx {
+    gap: 10px;
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.maindiv1, .maindiv2 {
+    width: 35vw;
+    height: 98vh;
+    border: solid;
+}
+
+.maindiv1 {
+    background-color: #FBE8A6;
+}
+
+.maindiv2 {
+    background-color: #F4976C;
+}
+
+ul, h4 {
+    text-align: start;
+}
+
+.SUBDIV {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.SUBDIV div {
+    width: 32vw;
+    height: 9vh;
+    margin-left: 20px;
+    border: solid #FBE8A6;
+    background-color: #FBE8A6;
+}
+
+.salary {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+.salaryexp, .careergrowth {
+    margin-top: 7vh;
+    background-color: #303C6C;
+    color: white;
+    padding: 20px;
+}
+
+.salaryexp, .careergrowth div {
+    background-color: #B4DFE5;
+}
+
+.edqualify {
+    width: 70%;
+    height: 20%;
+    border: solid;
+    background-color: #F4976C;
+    margin-top: 2%;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Media Queries for Tablets (max-width: 1024px) */
+@media only screen and (max-width: 1024px) {
+    .containerx {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .maindiv1, .maindiv2 {
+        width: 90vw;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .salary {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .salaryexp, .careergrowth {
+        width: 90vw;
+        height: auto;
+    }
+
+    .edqualify {
+        width: 90vw;
+        margin-left: 5%;
+    }
+
+    .SUBDIV div {
+        width: 85vw;
+        margin-left: 0;
+    }
+}
+
+/* Media Queries for Phones (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .maindiv1, .maindiv2 {
+        width: 95vw;
+        height: auto;
+    }
+
+    .salary, .mainsal, .containerx {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .salaryexp, .careergrowth {
+        width: 95vw;
+        height: auto;
+    }
+
+    .SUBDIV div {
+        width: 95vw;
+        margin-left: 0;
+    }
+
+    .salaryexp div, .careergrowth div {
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+        padding: 10px;
+    }
+
+    .edqualify {
+        width: 95vw;
+        margin-left: 0;
+    }
+}
+
+/* Media Queries for Small Phones (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+
+    .maindiv1, .maindiv2 {
+        width: 100vw;
+        height: auto;
+    }
+
+    .salaryexp, .careergrowth {
+        width: 100vw;
+        padding: 10px;
+    }
+
+    .salaryexp div, .careergrowth div {
+        width: 95%;
+        margin-left: 2.5%;
+    }
+
+    .edqualify {
+        width: 100vw;
+        margin-left: 0;
+    }
+
+    .SUBDIV div {
+        width: 100vw;
+        margin-left: 0;
+        padding: 10px;
+    }
+}
+
+

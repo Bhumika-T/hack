@@ -1,4 +1,4 @@
-body{
+  /* body{
     width:100vw;
     height:100vh;
     background-color:#303C6C;
@@ -78,4 +78,82 @@ body{
     margin-top: 60px;
     font-size:25px;
     margin-left: 0px;
+}
+*/
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #303C6C;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.circle1, .circle2, .circle3, .circle4 {
+    width: 150px;
+    height: 150px;
+    border: solid 2px aliceblue;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.circles {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap; /* Allows wrapping of items when screen is narrow */
+}
+
+.anchor {
+    text-decoration: none;
+    color: black;
+}
+
+.anchor:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(40, 40, 228);
+}
+
+/* Media Queries */
+
+/* Medium Devices (Tablets) */
+@media (max-width: 768px) {
+    .circle1, .circle2, .circle3, .circle4 {
+        width: 120px;
+        height: 120px;
+        font-size: 20px;
+    }
+
+    .circles {
+        gap: 30px;
+    }
+}
+
+/* Small Devices (Mobile Phones) */
+@media (max-width: 576px) {
+    .circle1, .circle2, .circle3, .circle4 {
+        width: 100px;
+        height: 100px;
+        font-size: 18px;
+    }
+
+    .circles {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #Circle3, #Circle4 {
+        margin-left: 0;
+    }
 }

@@ -27,9 +27,7 @@ body{
 .aihuman{
     margin-top: 0%;
 }
-.work{
-    
-}
+
 .enroll1{
     width:100px;
     height:30px;
@@ -106,4 +104,121 @@ body{
     gap:10px;
     text-align: center;
     justify-content: center;
+}
+/* Base Styles (as already provided) */
+/* Add media queries below */
+
+@media (max-width: 1200px) {
+    /* Adjust container and image sizes */
+    .container5 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .imgs, .subbox, .badges, .mentor {
+        width: 90%;
+    }
+    .maindiv img {
+        width: 100%;
+        height: auto;
+    }
+    .imgs {
+        height: auto;
+    }
+}
+
+@media (max-width: 992px) {
+    /* Adjust the arrangement for tablet-sized devices */
+    .container5 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .props, .aibody {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .imgs, .subbox, .badges, .mentor {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .enroll1 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .maindiv img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Mobile Devices */
+    body {
+        display: block;
+    }
+
+    .container5 {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .imgs {
+        padding: 10px;
+    }
+
+    .props, .aibody {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .enroll1 {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .subbox, .badges, .mentor {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .medal img {
+        width: 80px;
+    }
+
+    .men1 img, .men2 img, .men3 img {
+        width: 60px;
+    }
+}
+
+@media (max-width: 576px) {
+    /* Extra small devices */
+    .props img, .aibody img {
+    width: 100px;
+    height: 100px;
+}
+
+.props, .aibody {
+    flex-direction: column;
+    gap: 15px;
+}
+
+.enroll1 {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.men1 img, .men2 img, .men3 img {
+    width: 50px;
+}
+
+.medal img {
+    width: 70px;
+}
 }

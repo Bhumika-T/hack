@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="student.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="career-quest-rectangle">
+        <h2 class="career-quest-title">Career Quest</h2>
+        <hr class="divider">
+        <ul class="menu-list">
+            <li><a href="#dashboard">Dashboard</a></li>
+            <li><a href="#analytics">Analytics</a></li>
+            <li><a href="#calendar">Calendar</a></li>
+            <li><a href="#messages">Messages</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#appointment-management">Appointment Management</a></li>
+            <li><a href="#help-center">Help & Center</a></li>
+            <li><a href="#faqs">FAQs</a></li>
+        </ul>
+    </div>
+
+     <!-- Navigation Bar
+     <div class="nav-bar">
+        <a href="#">Home</a>
+        <a href="#">Time Table</a>
+        <a href="#">Examination</a>
+        <a href="#">Attendance</a>
+    </div> -->
+
+
+    <!-- Container for Courses -->
+    <div class="container">
+        <div class="title">
+            <h2>My Courses</h2>
+        </div>
+
+        <!-- Courses Section -->
+        <div class="courses">
+            <!-- Course 1 -->
+            <div class="course">
+                <h3>Engineering Graphics</h3>
+                <p>12/14</p>
+                <div class="progress-circle">
+                    <svg width="100" height="100">
+                        <circle class="bg" cx="50" cy="50" r="40"></circle>
+                        <circle class="progress" cx="50" cy="50" r="40" stroke-dasharray="251.2" stroke-dashoffset="35.88"></circle>
+                        <text x="50%" y="50%" text-anchor="middle" dy=".3em">86%</text>
+                    </svg>
+                </div>
+            </div>
+
+            <!-- Course 2 -->
+            <div class="course">
+                <h3>Cloud Computing</h3>
+                <p>27/29</p>
+                <div class="progress-circle">
+                    <svg width="100" height="100">
+                        <circle class="bg" cx="50" cy="50" r="40"></circle>
+                        <circle class="progress" cx="50" cy="50" r="40" stroke-dasharray="251.2" stroke-dashoffset="17.32"></circle>
+                        <text x="50%" y="50%" text-anchor="middle" dy=".3em">93%</text>
+                    </svg>
+                </div>
+            </div>
+
+            <!-- Course 3 -->
+            <div class="course">
+                <h3>Basics of Programming</h3>
+                <p>27/30</p>
+                <div class="progress-circle">
+                    <svg width="100" height="100">
+                        <circle class="bg" cx="50" cy="50" r="40"></circle>
+                        <circle class="progress" cx="50" cy="50" r="40" stroke-dasharray="251.2" stroke-dashoffset="25.12"></circle>
+                        <text x="50%" y="50%" text-anchor="middle" dy=".3em">90%</text>
+                    </svg>
+                </div>
+            </div>
+
+            <!-- Course 4 -->
+            <div class="course">
+                <h3>Web Development</h3>
+                <p>24/25</p>
+                <div class="progress-circle">
+                    <svg width="100" height="100">
+                        <circle class="bg" cx="50" cy="50" r="40"></circle>
+                        <circle class="progress" cx="50" cy="50" r="40" stroke-dasharray="251.2" stroke-dashoffset="10.05"></circle>
+                        <text x="50%" y="50%" text-anchor="middle" dy=".3em">96%</text>
+                    </svg>
+                </div>
+            </div>
+
+            <!-- Course 5 -->
+            <div class="course">
+                <h3>App Development</h3>
+                <p>25/40</p>
+                <div class="progress-circle">
+                    <svg width="100" height="100">
+                        <circle class="bg" cx="50" cy="50" r="40"></circle>
+                        <circle class="progress" cx="50" cy="50" r="40" stroke-dasharray="251.2" stroke-dashoffset="94.2"></circle>
+                        <text x="50%" y="50%" text-anchor="middle" dy=".3em">63%</text>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="todo-wrapper">
+        <div class="todo-container">
+            <h1 class="todo-title">To-Do List</h1>
+            <div class="todo-input-group">
+                <input type="text" id="task-input" placeholder="Add a new task">
+                <button id="add-task-btn">Add Task</button>
+            </div>
+            <ul id="task-list" class="todo-list">
+                <!-- Tasks will be added here dynamically -->
+            </ul>
+        </div>
+    </div>
+
+
+
+    <div class="announcement-container">
+        <h2 class="announcement-heading">Announcement</h2>
+        <div class="announcement-item">
+            <span class="announcement-category">Academic:</span>
+            <span class="announcement-content">Summer training internship with live projects</span>
+            <span class="announcement-time">2 minutes ago</span>
+        </div>
+        <div class="announcement-item">
+            <span class="announcement-category">Co-curricular:</span>
+            <span class="announcement-content">Global internship opportunity by student organisation</span>
+            <span class="announcement-time">10 minutes ago</span>
+        </div>
+        <div class="announcement-item">
+            <span class="announcement-category">Examination:</span>
+            <span class="announcement-content">Instructions for Mid-term examination</span>
+            <span class="announcement-time">Yesterday</span>
+        </div>
+    </div>
+
+
+    <div class="graph-container">
+        <h2>Student Scores Analysis</h2>
+        <canvas id="scoreChart"></canvas>
+    </div>
+
+
+
+    <div class="mentors-container">
+        <h2 class="mentors-heading">Registered Mentors</h2>
+        <div class="mentor-item">
+            <img src="./pp.png" alt="Mentor 1" class="mentor-image">
+            <div class="mentor-info">
+                <p class="mentor-name">John Doe</p>
+                <p class="mentor-designation">Senior Developer</p>
+            </div>
+        </div>
+        <div class="mentor-item">
+            <img src="./pp2.png" alt="Mentor 2" class="mentor-image">
+            <div class="mentor-info">
+                <p class="mentor-name">Jane Smith</p>
+                <p class="mentor-designation">Project Manager</p>
+            </div>
+        </div>
+        <div class="mentor-item">
+            <img src="./pp3.png" alt="Mentor 3" class="mentor-image">
+            <div class="mentor-info">
+                <p class="mentor-name">Emily Johnson</p>
+                <p class="mentor-designation">UX Designer</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+    const addTaskButton = document.getElementById('add-task-btn');
+    const taskInput = document.getElementById('task-input');
+    const taskList = document.getElementById('task-list');
+
+    function createTaskItem(taskContent) {
+        const li = document.createElement('li');
+        li.classList.add('todo-list-item');
+
+        // Create and append checkbox
+        const checkbox = document.createElement('input');
+        checkbox.type = 'checkbox';
+        checkbox.addEventListener('change', () => {
+            if (checkbox.checked) {
+                li.classList.add('completed');
+            } else {
+                li.classList.remove('completed');
+            }
+        });
+
+        // Create and append text
+        const text = document.createElement('span');
+        text.textContent = taskContent;
+
+        // Create and append delete button
+        const deleteButton = document.createElement('button');
+        deleteButton.textContent = 'Delete';
+        deleteButton.addEventListener('click', () => {
+            li.remove();
+        });
+
+        li.appendChild(checkbox);
+        li.appendChild(text);
+        li.appendChild(deleteButton);
+
+        return li;
+    }
+
+    addTaskButton.addEventListener('click', () => {
+        const taskContent = taskInput.value.trim();
+        if (taskContent) {
+            const taskItem = createTaskItem(taskContent);
+            taskList.appendChild(taskItem);
+            taskInput.value = ''; // Clear the input field
+        }
+    });
+
+    // Allow pressing Enter to add a task
+    taskInput.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') {
+            addTaskButton.click();
+        }
+    });
+});
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const ctx = document.getElementById('scoreChart').getContext('2d');
+
+    const scoreChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'], // X-axis labels
+            datasets: [{
+                label: 'Student Scores',
+                data: [75, 85, 78, 90, 88, 92, 95], // Y-axis data points
+                borderColor: 'rgba(75, 192, 192, 1)',
+                backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                fill: true,
+                tension: 0.1 // Smooth curve
+            }]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                x: {
+                    title: {
+                        display: true,
+                        text: 'Months'
+                    }
+                },
+                y: {
+                    title: {
+                        display: true,
+                        text: 'Scores'
+                    },
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+});
+
+
+    </script>
+    
+</body>
+</html>
